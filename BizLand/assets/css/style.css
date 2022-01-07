@@ -1558,3 +1558,37 @@ section {
     padding: 2px 0;
   }
 }
+
+.bg-light-white, .slider-3, .faq-boxes .card-header, .inner-banner[data-overlay]::before, .pagination-type1 ul li a, .tags-small a, .blog-social li a, .servvice-link-list li a, .faq-boxes.white-faq .card, section.error:after, .cart-table thead, .login-section .card-header, .prdt-detail-tab, .prdt-tab, .calculation .form-group, .experience li:before {
+  background: #eef4f8;
+}
+.service-icn {
+  height: 90px;
+  width: 90px;
+  margin: auto;
+  border-radius: 60px;
+  margin-bottom: 20px;
+} 
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.line {
+  width: 41px;
+  height: 2px;
+  display: block;
+  margin: auto;
+  margin-bottom: 7px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+.bg-blue, .head-1-book:hover, .btn-blue, .btn-blue-border:hover, .main-menu-1 ul li a.active:after, .main-slider.owl-carousel .owl-nav button:hover, .service-each:hover, .cta[data-overlay]:before, .hw-steps, .cta-callback[data-overlay]:before, .each-price.active[data-overlay]:before, .blog-nav-icon:hover, .prdt-nav-left:hover, .prdt-nav-right:hover, .service-nav-icon:hover, .team-nav-icon:hover, .emergency, .play-btn, .mean-container a.meanmenu-reveal span, .head-type-2 .main-menu-1 li .submenu, .team-image-part:before, .each-price-2:after, .each-price-2.active[data-overlay]::before, .owl-carousel.testimonial-2-slide .owl-nav button:hover, .blog-info-list:after, .count-footer[data-overlay]::before, .head-type-2.head-type-3 .main-menu-1.menu-2 ul li a.active:after, .estimate[data-overlay]::before, .service-each-3:hover, .how-work-img:after, .te-img-outer:after, .play-btn-big, .owl-carousel.testimonial-3-slide .owl-nav button:hover, .each-portfolio:before, .head-type-2.head-type-3 .head-1-book-call:hover, .bottom-head .main-menu-1>div>ul>li>a.active, .bottom-head .main-menu-1>div>ul>li>a:hover, .bottom-head .main-menu-1 li .submenu, .banner-type-4[data-overlay]::before, .features-about[data-overlay]::before, .blog-standared-date, .right-box-head h4:after, .categories li a span, .tags-widget .tag-link:hover, .social-profile-box:hover, .pagination-type1 ul li a:hover, .pagination-type1 ul li.active a, .tags-small a:hover, .blog-social li a:hover, .portfolio-overlay:before, .quote-service[data-overlay]::before, .servvice-link-list li a:hover, .servvice-link-list li.active a, .coming-soon[data-overlay]::before, .gallery-links .full-cover, .shop-prdt-img span, .experience li:after {
+  background: #2989d8;
+}
