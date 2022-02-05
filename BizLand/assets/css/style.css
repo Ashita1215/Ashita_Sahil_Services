@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   display: flex;
   list-style: none;
-  align-items: center;
+  align-items:center;
 }
 .navbar li {
   position: relative;
@@ -206,6 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar > ul > li {
   white-space: nowrap;
   padding: 10px 0 10px 28px;
+   align-items: flex-end; 
 }
 .navbar a, .navbar a:focus {
   display: flex;
@@ -396,8 +397,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
-  background: url("../img/hero-bg.jpg") top left;
+  height: 85vh;
+  background: url("../img/head1.jpg") top left;
   background-size: cover;
   position: relative;
 }
@@ -1559,6 +1560,11 @@ section {
   }
 }
 
+/* .service-each{
+background-color: #fff;
+padding: 40px 20px;
+padding-bottom: 35;
+}*/
 .bg-light-white, .slider-3, .faq-boxes .card-header, .inner-banner[data-overlay]::before, .pagination-type1 ul li a, .tags-small a, .blog-social li a, .servvice-link-list li a, .faq-boxes.white-faq .card, section.error:after, .cart-table thead, .login-section .card-header, .prdt-detail-tab, .prdt-tab, .calculation .form-group, .experience li:before {
   background: #eef4f8;
 }
@@ -1580,15 +1586,130 @@ section {
   -ms-flex-pack: center;
   justify-content: center;
 }
+
+/* .transition-4, .transition-4:hover {
+  -webkit-transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+}
+
+.line-servcie {
+  width: 40px;
+  height: 2px;
+  display: inline-block;
+} */
+
 .line {
   width: 41px;
   height: 2px;
   display: block;
   margin: auto;
-  margin-bottom: 7px;
+  margin-top: 25px;
   -webkit-transition: all .4s;
   transition: all .4s;
 }
 .bg-blue, .head-1-book:hover, .btn-blue, .btn-blue-border:hover, .main-menu-1 ul li a.active:after, .main-slider.owl-carousel .owl-nav button:hover, .service-each:hover, .cta[data-overlay]:before, .hw-steps, .cta-callback[data-overlay]:before, .each-price.active[data-overlay]:before, .blog-nav-icon:hover, .prdt-nav-left:hover, .prdt-nav-right:hover, .service-nav-icon:hover, .team-nav-icon:hover, .emergency, .play-btn, .mean-container a.meanmenu-reveal span, .head-type-2 .main-menu-1 li .submenu, .team-image-part:before, .each-price-2:after, .each-price-2.active[data-overlay]::before, .owl-carousel.testimonial-2-slide .owl-nav button:hover, .blog-info-list:after, .count-footer[data-overlay]::before, .head-type-2.head-type-3 .main-menu-1.menu-2 ul li a.active:after, .estimate[data-overlay]::before, .service-each-3:hover, .how-work-img:after, .te-img-outer:after, .play-btn-big, .owl-carousel.testimonial-3-slide .owl-nav button:hover, .each-portfolio:before, .head-type-2.head-type-3 .head-1-book-call:hover, .bottom-head .main-menu-1>div>ul>li>a.active, .bottom-head .main-menu-1>div>ul>li>a:hover, .bottom-head .main-menu-1 li .submenu, .banner-type-4[data-overlay]::before, .features-about[data-overlay]::before, .blog-standared-date, .right-box-head h4:after, .categories li a span, .tags-widget .tag-link:hover, .social-profile-box:hover, .pagination-type1 ul li a:hover, .pagination-type1 ul li.active a, .tags-small a:hover, .blog-social li a:hover, .portfolio-overlay:before, .quote-service[data-overlay]::before, .servvice-link-list li a:hover, .servvice-link-list li.active a, .coming-soon[data-overlay]::before, .gallery-links .full-cover, .shop-prdt-img span, .experience li:after {
   background: #2989d8;
 }
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  max-height: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  height: 100%;
+  padding: 3%;
+  padding-bottom: 0%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+/* .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+} */
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+ .active, .dot:hover {
+  background-color: #f0e4e4;
+} 
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} 
